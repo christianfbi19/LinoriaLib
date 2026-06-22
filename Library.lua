@@ -7231,14 +7231,14 @@ function Library:CreateWindow(...)
 
         local TabButtonWidth = Library:GetTextBounds(Tab.Name, Library.Font, 16)
 
-		local TabButton = Library:Create("Frame", {
-		    BackgroundColor3 = Library.BackgroundColor;
-		    BorderColor3 = Library.OutlineColor;
-		    Size = UDim2.new(0, TabButtonWidth + 8 + 4, 0.85, 0);
-		    AutomaticSize = Enum.AutomaticSize.X;
-		    ZIndex = 1;
-		    Parent = TabArea;
-		})
+	local TabButton = Library:Create("Frame", {
+	    BackgroundColor3 = Library.BackgroundColor;
+	    BorderColor3 = Library.OutlineColor;
+	    Size = UDim2.new(0, 1, 0.85, 0);
+	    AutomaticSize = Enum.AutomaticSize.X;
+	    ZIndex = 1;
+	    Parent = TabArea;
+	})
 
         Library:AddToRegistry(TabButton, {
             BackgroundColor3 = "BackgroundColor";
