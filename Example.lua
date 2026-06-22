@@ -49,7 +49,7 @@ local Window = Library:CreateWindow({
 	ShowCustomCursor = true,
 	UnlockMouseWhileOpen = true,
 	NotifySide = "Left",
-	TabPadding = 8,
+	TabPadding = 0,
 	MenuFadeTime = 0.2
 })
 
